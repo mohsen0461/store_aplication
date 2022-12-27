@@ -1,3 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
-const defaultScrollPhysics =  BouncingScrollPhysics();
+const defaultScrollPhysics = BouncingScrollPhysics();
+
+extension PriceLable on int {
+  String get withPriceLable => '$this تومان';
+}

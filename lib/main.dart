@@ -20,7 +20,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         textTheme: TextTheme(
+            subtitle1: defaultTextStyle.apply(
+                color: LightThemeColors.secondaryTextColor),
             bodyText2: defaultTextStyle,
+            button: defaultTextStyle,
             headline6: defaultTextStyle.copyWith(fontWeight: FontWeight.bold),
             caption: defaultTextStyle.apply(
                 color: LightThemeColors.secondaryTextColor)),
