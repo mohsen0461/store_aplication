@@ -10,3 +10,7 @@ abstract class HomeEvent extends Equatable {
 class HomeStarted extends HomeEvent{
   
 }
+
+class HomeRefresh extends HomeEvent{
+  
+}
