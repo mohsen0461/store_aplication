@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
                 color: LightThemeColors.secondaryTextColor),
             bodyText2: defaultTextStyle,
             button: defaultTextStyle,
-            headline6: defaultTextStyle.copyWith(fontWeight: FontWeight.bold),
+            headline6: defaultTextStyle.copyWith(
+                fontWeight: FontWeight.bold, fontSize: 18),
             caption: defaultTextStyle.apply(
                 color: LightThemeColors.secondaryTextColor)),
         colorScheme: const ColorScheme.light(
